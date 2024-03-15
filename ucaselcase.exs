@@ -1,0 +1,8 @@
+IO.puts("Enter a Input:")
+s = IO.gets("") |> String.trim()
+ucase = String.upcase(s)
+lcase= String.downcase(s)
+IO.puts("result in upper case")
+IO.puts(ucase)
+IO.puts("result in lower case")
+IO.puts(lcase)
